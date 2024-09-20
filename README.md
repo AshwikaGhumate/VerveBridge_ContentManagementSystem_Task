@@ -83,8 +83,8 @@ Pages API
     Retrieve a Specific Page: GET /api/pages/<id>/
     Update a Page: PUT /api/pages/<id>/
     Delete a Page: DELETE /api/pages/<id>/
-    Example API Request (Using JWT Token)
 
+    Example API Request (Using JWT Token)
     Include the JWT token in the Authorization header for protected routes:
       GET /api/pages/
       Authorization: Bearer <your_access_token>
